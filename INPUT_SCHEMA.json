@@ -9,7 +9,7 @@
       "type": "array",
       "items": { "type": "string" },
       "description": "Array of phone numbers (e.g., ['+1234567890']) or CSV URL",
-      "editor": "textarea",
+      "editor": "text",
       "required": false
     },
     "maxRequests": {
