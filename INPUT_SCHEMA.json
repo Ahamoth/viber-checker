@@ -1,7 +1,7 @@
 {
   "title": "Viber Account Checker Input",
   "description": "Input schema for checking Viber account registration by phone numbers",
-  "schemaVersion": "1",
+  "schemaVersion": 1,
   "type": "object",
   "properties": {
     "phoneNumbers": {
