@@ -1,1 +1,12 @@
-
+{
+  "type": "object",
+  "properties": {
+    "phoneNumbers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Array of phone numbers (e.g., ['+1234567890']) or CSV URL"
+    },
+    "maxRequests": { "type": "integer", "default": 100, "description": "Max numbers to check" },
+    "proxy": { "type": "object", "description": "Proxy config (optional)" }
+  }
+}
