@@ -6,9 +6,8 @@
   "properties": {
     "phoneNumbers": {
       "title": "Phone Numbers",
-      "type": "array",
-      "items": { "type": "string" },
-      "description": "Array of phone numbers (e.g., ['+1234567890']) or CSV URL",
+      "type": "string",
+      "description": "CSV URL or single phone number (e.g., '+1234567890')",
       "editor": "text",
       "required": false
     },
