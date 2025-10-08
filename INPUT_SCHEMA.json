@@ -8,24 +8,25 @@
       "title": "Phone Numbers",
       "type": "array",
       "items": { "type": "string" },
-      "description": "Array of phone numbers (e.g., ['+1234567890']) or CSV URL",
+      "description": "Array of phone numbers (e.g., ['+1234567890']) or a single CSV URL containing phone numbers",
       "editor": "textarea",
-      "required": false
+      "prefill": ["+1234567890", "+1987654321"]
     },
     "maxRequests": {
       "title": "Maximum Requests",
       "type": "integer",
-      "default": 100,
-      "description": "Max numbers to check",
+      "description": "Maximum number of phone numbers to check",
       "editor": "number",
-      "required": false
+      "default": 100,
+      "minimum": 1,
+      "prefill": 10
     },
     "proxy": {
       "title": "Proxy Configuration",
       "type": "object",
-      "description": "Proxy config (optional)",
+      "description": "Proxy configuration (optional, e.g., { groups: [{ useApifyProxy: true }] })",
       "editor": "json",
-      "required": false
+      "prefill": { "groups": [{ "useApifyProxy": true }] }
     }
   },
   "required": []
