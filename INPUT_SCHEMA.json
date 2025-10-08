@@ -9,20 +9,24 @@
       "type": "array",
       "items": { "type": "string" },
       "description": "Array of phone numbers (e.g., ['+1234567890']) or CSV URL",
-      "editor": "textarea"
+      "editor": "textarea",
+      "required": false
     },
     "maxRequests": {
       "title": "Maximum Requests",
       "type": "integer",
       "default": 100,
       "description": "Max numbers to check",
-      "editor": "number"
+      "editor": "number",
+      "required": false
     },
     "proxy": {
       "title": "Proxy Configuration",
       "type": "object",
       "description": "Proxy config (optional)",
-      "editor": "json"
+      "editor": "json",
+      "required": false
     }
-  }
+  },
+  "required": []
 }
