@@ -1,1 +1,16 @@
-
+{
+  "name": "apify-viber-checker",
+  "version": "1.0.0",
+  "description": "Apify actor to check Viber account registration",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^3.0.0",
+    "puppeteer": "^23.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
